@@ -122,3 +122,34 @@ p {
 	align-items: center;
 }
 
+
+.block3 {
+	min-height: 623px; 
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.block4 {
+	min-height: 800px; 
+	background-color: #FEDCDC;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.block7 {
+	min-height: 337px; 
+	background-color: #509C98C4;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
