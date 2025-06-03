@@ -1,37 +1,123 @@
-.colortext {
-	background-color: yellow;
-}
-
-
-.blue-text {
-	color: #4682B4; 
-}	
-
 
 body {
-  text-align: justify;
-  
-}
-
-
-ul {
-  padding-left: 0;
-  list-style-type: '- ';
-  list-style-position: inside;
-}
-
-
-ol {
-  padding-left: 0;
-  list-style-position: inside;
-}
-
-
-img {
-	margin-top: 0;
-}
-
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #45343d;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	text-align: justify;
+   }
+   
+div, p, input, button, form, span, a, ul, li {
+	font-family: "Montserrat", sans-serif;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-size: 16px;
+   }
+   
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: 500;
 	
-h2 {
-	margin-bottom: 0;
+   }
+   
+p {
+	line-height: 1.65em;
+   }
+   
+
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;    
+
+   }
+
+
+.block1 {
+
+  background-image: url('images/фон секция1.png');
+  background-size: cover;
+  width: 1600;
+  min-height: 857;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+.menu {
+	max-width: 80%;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.links {
+	display: flex;
+  	flex-direction: row;
+  	gap: 30px;
+}
+
+
+.logo {
+
+	font-family: "Forum", serif;
+	font-size: 40px;
+
+}
+
+
+
+.slogan {
+	font-size: 35px;
+	font-family: "Comforter", cursive;
+	margin-top: 100px;
+}
+
+.title {
+	font-size: 120px;
+	font-family: "Forum", serif;
+	margin-top: 110px;
+   
+   }
+
+
+.shop {
+	color: white;
+	font-weight: 200;
+	font-size: 18px;
+	margin-top: 25px;
+
+}
+
+.catalog_btn {
+	height: 50px;
+	width: 270px;
+	margin-top: 150px;
+	margin-left: 370px;
+	border-radius: 10px;
+	border-width: 0px;
+	background: linear-gradient(white, rgb(255, 217, 223));
+	color: #45343d;
+	font-weight: 700;
+
+
+}
+
+.block2 {
+
+  background-image: url('images/фон секция2.png');
+  background-size: cover;
+  width: 1600;
+
 }
